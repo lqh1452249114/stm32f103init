@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "name": "win32",
+            "includePath": [
+                ".\\Project",
+                ".\\CMSIS\\Core",
+                ".\\CMSIS\\STM32F10x",
+                ".\\Lib\\inc",
+                ".\\.eide\\deps",
+                ".\\USER",
+                ".\\USER\\APP",
+                ".\\USER\\BSP",
+                "D:\\Program\\KEIL_MDK\\ARM\\ARMCC\\include",
+                "D:\\Program\\KEIL_MDK\\ARM\\ARMCC\\include\\rw"
+            ],
+            "defines": [
+                "STM32F10X_MD",
+                "USE_STDPERIPH_DRIVER",
+                "__VSCODE_CPPTOOL"
+            ],
+            "intelliSenseMode": "${default}",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    ".\\Project\\*",
+                    ".\\CMSIS\\Core\\*",
+                    ".\\CMSIS\\STM32F10x\\*",
+                    ".\\Lib\\inc\\*",
+                    ".\\.eide\\deps\\*",
+                    ".\\USER\\*",
+                    ".\\USER\\APP\\*",
+                    ".\\USER\\BSP\\*",
+                    "D:\\Program\\KEIL_MDK\\ARM\\ARMCC\\include\\*",
+                    "D:\\Program\\KEIL_MDK\\ARM\\ARMCC\\include\\rw\\*"
+                ]
+            },
+            "forcedInclude": [
+                "c:\\Users\\LQH\\.vscode\\extensions\\cl.eide-2.3.1\\bin\\include\\internal_headers\\armcc_intr.h"
+            ]
+        }
+    ],
+    "version": 4
+}
