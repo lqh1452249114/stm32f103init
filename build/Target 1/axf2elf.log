@@ -1,0 +1,4 @@
+objcopy.exe --update-section ER_IROM1="e:\Program_file\Holiday_Practice\F103\标准库\0_f103初始化总集\build\Target 1\0_f103初始化总集.bin" "e:\Program_file\Holiday_Practice\F103\标准库\0_f103初始化总集\build\Target 1\0_f103初始化总集.axf" "e:\Program_file\Holiday_Practice\F103\标准库\0_f103初始化总集\build\Target 1\0_f103初始化总集.elf"
+
+objcopy.exe: e:\Program_file\Holiday_Practice\F103\标准库\0_f103初始化总集\build\Target 1\0_f103初始化总集.elf: warning: allocated section `RW_IRAM1' not in segment
+

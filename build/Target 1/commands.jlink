@@ -1,0 +1,6 @@
+r
+halt
+loadfile "e:\Program_file\Holiday_Practice\F103\标准库\0_f103初始化总集\build\Target 1\0_f103初始化总集.hex"
+r
+go
+exit
